@@ -1,0 +1,33 @@
+#the first part gives value to variables
+#how many cars all together
+cars = 100
+
+#how many space in a car
+space_in_a_car = 4.0
+
+#how many drivers all together
+drivers = 30
+
+#how many passangers all together
+passengers = 90
+
+#how to calculate the cars not driven that day
+cars_not_driven = cars - drivers
+
+#how many cars did they drove
+cars_driven = drivers
+
+#capacity = how many you can hold
+carpool_capacity = cars_driven * space_in_a_car
+
+#how many passengers per car(average)
+avarage_passengers_per_car = passengers / cars_driven
+#finish giving value to variables
+
+#before adding any valued variables,use comma and end with comma
+print "there are", cars, "cars available."
+print "there are only", drivers, "drivers available."
+print "there will be", cars_not_driven, "empty cars today"
+print "We can transport", carpool_capacity, "people today"
+print "We have", passengers, "to carpool today."
+print "We need to put about", average_passengers_per_car, "in each car."
